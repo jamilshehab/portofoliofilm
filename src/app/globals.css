@@ -27,8 +27,8 @@ p {
 }
 .s-soft{ 
   position: fixed;
-  top: 250px ;
-  right: 20px;
+  top: 450px ;
+  right: 15px;
   z-index: 1000; transition:all linear 0.2s ;
  }
  
@@ -59,3 +59,7 @@ p {
     to right,
     #833ab4,#fd1d1d,#fcb045
   );}  
+
+.home-section .swiper-wrapper {
+padding: 0px;
+  }

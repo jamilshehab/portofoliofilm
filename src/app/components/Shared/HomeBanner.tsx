@@ -1,40 +1,90 @@
-"use client";
-import React from 'react'
-import Link from 'next/link'
-import FadeInLeftAnimation from '../Animations/FadeInLeftAnimation'
-const HomeBanner = () => {
-  return (
-   <div className='main  '>
-     <section className="relative flex md:h-screen py-36 items-center bg-fixed  bg-no-repeat bg-top bg-cover" style={{backgroundImage:"url('/assets/images/HomeBanner/1.jpg')"}}  id="home">
-            <div className="absolute inset-0 bg-slate-900/40"></div>
-            <div className="container relative">
-                <div className="md:flex justify-center mt-10">
-                    <div className="w-full">
-                     
-                      <FadeInLeftAnimation>
-                      <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">Edited with Precision <br /> Alpha Video Showcase</h2>
-
-                      </FadeInLeftAnimation>
-                          <FadeInLeftAnimation>
-                          <div className="mt-8">
-                            <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact Me  </Link>
+ 
+        "use client";
+        import React from 'react'
+        import Link from 'next/link'
+        import FadeInLeftAnimation from '../Animations/FadeInLeftAnimation'
+        import { Swiper, SwiperSlide } from "swiper/react";
+         
+        import { Autoplay, EffectFade, Navigation } from "swiper/modules";
+        import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+        
+        const HomeBanner = () => {
+            
+          return (
+           <section className='main home-section' id='home'>
+            <Swiper
+                slidesPerView={1}
+                autoplay={{ delay: 3500 }}
+                parallax={true}
+                modules={[Navigation, Autoplay, EffectFade]}
+                effect="fade"
+                navigation={{
+                  nextEl: ".home-image-swiper-button-next",
+                  prevEl: ".home-image-swiper-button-prev",
+                }}
+              >
+              <SwiperSlide>
+              <div className="relative md:pt-60 pt-40 md:pb-74 pb-56 flex items-center bg-center bg-no-repeat bg-cover jarallax !bg-fixed " style={{backgroundImage:"url('/assets/images/HomeBanner/1.jpg')", backgroundAttachment: `fixed !important`}} >
+                    <div className="absolute inset-0 bg-slate-900/40"></div>
+                    <div className="container relative">
+                        <div className="md:flex justify-center mt-10">
+                            <div className="w-full">
+                             
+                              <FadeInLeftAnimation>
+                              <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">Clear Vision, Expert Care <br /> Your Eyes Deserve the Best </h2>
+                               
+                              </FadeInLeftAnimation>
+                                  <FadeInLeftAnimation>
+                                  <div className="mt-8">
+                                    <Link href="tel:0096171467986" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact Me  </Link>
+                                </div>
+                                  </FadeInLeftAnimation>
+                                
+                            </div>
                         </div>
-                          </FadeInLeftAnimation>
-                        
                     </div>
+              </div>
+              
+              </SwiperSlide>
+              <SwiperSlide>
+              <div className="relative md:pt-60 pt-40 md:pb-74 pb-56 flex items-center bg-center bg-no-repeat bg-cover jarallax !bg-fixed " style={{backgroundImage:"url('/assets/images/HomeBanner/2.jpg')", backgroundAttachment: `fixed !important`}} >
+                    <div className="absolute inset-0 bg-slate-900/40"></div>
+                    <div className="container relative">
+                        <div className="md:flex justify-center mt-10">
+                            <div className="w-full">
+                             
+                              <FadeInLeftAnimation>
+                              <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">Clear Vision, Expert Care <br /> Your Eyes Deserve the Best </h2>
+                               
+                              </FadeInLeftAnimation>
+                                  <FadeInLeftAnimation>
+                                  <div className="mt-8">
+                                    <Link href="tel:0096171467986" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact Me  </Link>
+                                </div>
+                                  </FadeInLeftAnimation>
+                                
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              
+              </SwiperSlide>
+              <div className="absolute md:inset-y-5 left-12 md:left-4 bottom-[90px] md:bottom-0 md:top-0 z-20 md:flex md:items-center ">
+                  <button className=" home-image-swiper-button-prev  flex justify-center items-center   w-[64px] h-[64px] rounded-full shadow-lg   shadow-[#00000059] focus:outline-none hover:bg-gray-600  hover:border-gray-600 duration-500 bg-[#1c75bb]">
+                    <IoIosArrowBack className="text-md font-light text-white" />
+                  </button>
                 </div>
-            </div>
-        </section>
-        <div className="relative">
-            <div className="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-white dark:text-slate-900">
-                <svg className="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
-                </svg>
-            </div>
-        </div>
-   </div>
-
-  )
-}
-
-export default HomeBanner
+                <div className="absolute md:inset-y-5 md:right-4 right-12 bottom-[90px] md:bottom-0 md:top-0  z-20 md:flex md:items-center">
+                  <button className=" home-image-swiper-button-next  flex justify-center items-center  w-[64px] h-[64px] rounded-full shadow-lg   shadow-[#00000059] focus:outline-none hover:bg-gray-600  hover:border-gray-600 duration-500 bg-[#1c75bb]">
+                    <IoIosArrowForward className="text-md font-light text-white" />
+                  </button>
+                </div>
+              </Swiper>
+             
+               
+           </section>
+        
+          )
+        }
+        
+        export default HomeBanner
