@@ -19,9 +19,9 @@ const Services = () => {
         <div className="grid grid-cols-1 pb-8 text-center">
             <FadeInUpAnimation>
             <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Services</h6>
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What do i offer ?</h3>
+            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold ">What do i offer ?</h3>
 
-            <p className="text-slate-400 max-w-xl mx-auto">Obviously I am a Film Makedr. Experienced with all stages of the video editing cycle for films or any video projects.</p>
+            <p className="text-slate-800 max-w-xl mx-auto">Obviously I am a Film Makedr. Experienced with all stages of the video editing cycle for films or any video projects.</p>
             </FadeInUpAnimation>
            
         </div>
@@ -61,7 +61,7 @@ const Services = () => {
   </div>
             <div className="content mt-7">
               <h3 className="title h5 text-lg font-medium">{item.title}</h3>
-              <p className="text-slate-400 mt-3">{item.desc}</p>
+              <p className="text-slate-800 mt-3">{item.desc}</p>
             </div>
           </div>
         </SwiperSlide>

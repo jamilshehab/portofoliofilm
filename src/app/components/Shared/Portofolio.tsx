@@ -14,7 +14,7 @@ const Portofolio = () => {
           <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Our Works & Projects</h3>
           </FadeInUpAnimation>
               <FadeInUpAnimation>
-              <p className="text-slate-400 max-w-xl mx-auto">Obviously I am a Film Maker. Experienced with all stages of the development cycle for dynamic web projects.</p>
+              <p className="text-slate-800 max-w-xl mx-auto">Obviously I am a Film Maker. Experienced with all stages of the development cycle for dynamic web projects.</p>
 
               </FadeInUpAnimation>
 

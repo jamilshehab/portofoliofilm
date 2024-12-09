@@ -4,8 +4,8 @@ import Link from 'next/link'
 import FadeInLeftAnimation from '../Animations/FadeInLeftAnimation'
 const HomeBanner = () => {
   return (
-   <div className='main'>
-     <section className="relative md:pt-60 pt-40 md:pb-64 pb-56 flex items-center bg-center bg-no-repeat bg-cover jarallax bg-fixed" style={{backgroundImage:"url('/assets/images/HomeBanner/1.jpg')"}}  id="home">
+   <div className='main  '>
+     <section className="relative flex md:h-screen py-36 items-center bg-fixed  bg-no-repeat bg-top bg-cover" style={{backgroundImage:"url('/assets/images/HomeBanner/1.jpg')"}}  id="home">
             <div className="absolute inset-0 bg-slate-900/40"></div>
             <div className="container relative">
                 <div className="md:flex justify-center mt-10">

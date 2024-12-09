@@ -1,4 +1,3 @@
-import { FaVideo, FaPalette, FaClipboardList, FaVolumeUp, FaFilm, FaPlayCircle } from "react-icons/fa";
 
 // Define the type for a service item
 interface ServiceItem {

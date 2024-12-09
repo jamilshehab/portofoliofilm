@@ -5,7 +5,9 @@ import Services from "./Shared/Services";
 import Portofolio from "./Shared/Portofolio";
 import GetInTouch from "./Shared/GetInTouch";
 import Footer from "./Footer/Footer";
-
+import Linkedin from "./Footer/Linkedin";
+import Whatsapp from "./Footer/Whatsapp";
+import StickySocialMedia from "./Footer/StickySocialMedia";
 export {
     Navbar,
     HomeBanner,
@@ -13,7 +15,10 @@ export {
     Services,
     Portofolio,
     GetInTouch,
-    Footer
+    Footer,
+    Linkedin,
+    Whatsapp,
+    StickySocialMedia
 }
 
 

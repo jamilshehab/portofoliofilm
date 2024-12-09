@@ -7,17 +7,13 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+ 
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 @layer utilities {
@@ -25,3 +21,41 @@ body {
     text-wrap: balance;
   }
 }
+ 
+p {
+  font-size: 18px !important;
+}
+.s-soft{ 
+  position: fixed;
+  top: 250px ;
+  right: 20px;
+  z-index: 1000; transition:all linear 0.2s ;
+ }
+ 
+ .s-item { 
+   display:block; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   border-radius:10px;
+   margin: 7px;
+   color: white;
+   font-size: 25px;
+   line-height: 60px;
+   text-align:center;
+   transition:all linear 0.2s ;}
+   .s-item i {
+    text-align: center;
+   }
+ .facebook {background-color:  #3b5999;}
+.twitter {background-color: #14171A;}
+.print {background-color: #de3c7d;}
+.pinterest{background-color: #BD081C;}
+.linkedin{background-color: #0e76a8 ;}
+.instagram{ background: #833ab4;
+  background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045
+  );}  

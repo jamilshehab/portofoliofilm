@@ -1,4 +1,4 @@
- import { AboutSection, GetInTouch, HomeBanner, Portofolio, Services } from "./components";
+ import { AboutSection, GetInTouch, HomeBanner,  Portofolio, Services,   StickySocialMedia } from "./components";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
        <Services/>
        <Portofolio/>
        <GetInTouch/>
+       <StickySocialMedia/>
     </main>
   );
 }
