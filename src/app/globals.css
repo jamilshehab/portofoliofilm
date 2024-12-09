@@ -27,7 +27,7 @@ p {
 }
 .s-soft{ 
   position: fixed;
-  top: 290px ; 
+  top: 380px ; 
   right: 14px;
   z-index: 1000; transition:all linear 0.2s ;
  }
@@ -62,4 +62,13 @@ p {
 
 .home-section .swiper-wrapper {
 padding: 0px;
+  }
+
+  @media screen and (max-width:750px) {
+    .s-soft{ 
+      position: fixed;
+      top: 290px; 
+      right: 14px;
+      z-index: 1000; transition:all linear 0.2s ;
+     }
   }
