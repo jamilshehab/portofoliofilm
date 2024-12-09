@@ -27,7 +27,7 @@ p {
 }
 .s-soft{ 
   position: fixed;
-  top: 380px ; 
+  top: 360px ; 
   right: 14px;
   z-index: 1000; transition:all linear 0.2s ;
  }
