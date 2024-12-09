@@ -31,12 +31,12 @@
                             <div className="w-full text-center lg:text-start">
                              
                               <FadeInLeftAnimation>
-                              <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">Clear Vision, Expert Care <br /> Your Eyes Deserve the Best </h2>
+                              <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">Expert Video Editor <br />Alpha Video Editor </h2>
                                
                               </FadeInLeftAnimation>
                                   <FadeInLeftAnimation>
                                   <div className="mt-8">
-                                    <Link href="tel:0096171467986" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact Me  </Link>
+                                    <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact Me  </Link>
                                 </div>
                                   </FadeInLeftAnimation>
                                 
@@ -54,7 +54,7 @@
                             <div className="w-full text-center lg:text-start">
                              
                               <FadeInLeftAnimation>
-                              <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">Clear Vision, Expert Care <br /> Your Eyes Deserve the Best </h2>
+                              <h2 className="font-bold text-white leading-snug text-[30px] lg:text-[42px] mt-6 block">Expert Video Editor <br />Alpha Video Editor </h2>
                                
                               </FadeInLeftAnimation>
                                   <FadeInLeftAnimation>
